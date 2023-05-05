@@ -24,7 +24,7 @@ public class Programa {
         em.persist(caputupiry);
         em.persist(molhoDeTomate);
 
-        Pizza p = new Pizza("frango", 40.5);
+        Pizza p = new Pizza("frango", 40.5, Sabor.salgado);
         p.getIngrediente().add(frango);
         p.getIngrediente().add(caputupiry);
         p.getIngrediente().add(molhoDeTomate);
